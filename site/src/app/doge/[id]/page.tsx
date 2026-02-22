@@ -2,6 +2,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import Link from "next/link";
 import dogesIndex from "@/data/doges-index.json";
+import { BackLink } from "@/components/BackLink";
 
 interface DogeMetadata {
   itemId: string;
@@ -59,12 +60,7 @@ export default async function DogePage({
 
   return (
     <div>
-      <Link
-        href="/"
-        className="inline-flex items-center gap-1 text-sm text-white/50 hover:text-gold mb-6"
-      >
-        &larr; Back to Gallery
-      </Link>
+      <BackLink />
 
       <div className="flex flex-col md:flex-row gap-8">
         {/* Image */}
