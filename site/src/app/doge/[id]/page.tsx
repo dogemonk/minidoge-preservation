@@ -1,5 +1,6 @@
 import { readFileSync } from "fs";
 import { join } from "path";
+import { Suspense } from "react";
 import Link from "next/link";
 import dogesIndex from "@/data/doges-index.json";
 import { BackLink } from "@/components/BackLink";
@@ -60,7 +61,9 @@ export default async function DogePage({
 
   return (
     <div>
-      <BackLink />
+      <Suspense>
+        <BackLink />
+      </Suspense>
 
       <div className="flex flex-col md:flex-row gap-8">
         {/* Image */}

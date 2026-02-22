@@ -1,10 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 import type { DogeIndex } from "@/lib/types";
 
 export function DogeCard({ doge }: { doge: DogeIndex }) {
+  const searchParams = useSearchParams();
+  const galleryQuery = searchParams.toString();
+  const from = galleryQuery ? `/?${galleryQuery}` : "/";
+  const href = `/doge/${doge.id}?from=${encodeURIComponent(from)}`;
+
   return (
     <Link
-      href={`/doge/${doge.id}`}
+      href={href}
       className="group bg-surface rounded-lg overflow-hidden hover:bg-surface-hover transition-colors"
     >
       <div className="aspect-square bg-black/20 flex items-center justify-center">
