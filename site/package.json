@@ -5,7 +5,7 @@
   "scripts": {
     "prepare-data": "tsx scripts/prepare-data.ts",
     "dev": "next dev",
-    "build": "next build",
+    "build": "tsx scripts/prepare-data.ts && next build",
     "start": "next start"
   },
   "dependencies": {
