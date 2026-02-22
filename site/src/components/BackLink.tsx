@@ -6,7 +6,14 @@ export function BackLink() {
   const router = useRouter();
 
   const handleClick = () => {
-    if (window.history.length > 1) {
+    const referrer = document.referrer;
+    const isSameOrigin = referrer.startsWith(window.location.origin);
+    const isGalleryPage =
+      isSameOrigin &&
+      (new URL(referrer).pathname === "/" ||
+        new URL(referrer).pathname === "");
+
+    if (isGalleryPage) {
       router.back();
     } else {
       router.push("/");
