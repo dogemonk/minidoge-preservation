@@ -1,6 +1,7 @@
 import { readFileSync } from "fs";
 import { join } from "path";
 import Link from "next/link";
+import dogesIndex from "@/data/doges-index.json";
 
 interface DogeMetadata {
   itemId: string;
@@ -42,6 +43,8 @@ export default async function DogePage({
   const { id } = await params;
   const numId = parseInt(id, 10);
   const doge = await getDogeData(id);
+  const indexEntry = dogesIndex.find((d) => d.id === numId);
+  const rank = indexEntry?.rank ?? 0;
 
   const traitOrder = [
     "Background",
@@ -83,9 +86,14 @@ export default async function DogePage({
             Mini Doge{" "}
             <span className="text-gold">#{id}</span>
           </h1>
-          <p className="text-white/40 text-sm mb-6">
-            Inscription #{doge.inscriptionNumber}
-          </p>
+          <div className="flex items-center gap-3 mb-6">
+            <span className="text-white/40 text-sm">
+              Inscription #{doge.inscriptionNumber}
+            </span>
+            <span className="bg-gold/15 text-gold text-sm font-medium px-2.5 py-0.5 rounded-full">
+              Rarity #{rank.toLocaleString()} / 10,000
+            </span>
+          </div>
 
           {/* Traits */}
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8">

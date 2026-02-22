@@ -33,11 +33,38 @@ const raw = JSON.parse(readFileSync(METADATA, "utf-8")) as {
 
 console.log(`Processing ${raw.data.length} items...`);
 
-// Build compact index
-const index = raw.data
+const TOTAL = raw.data.length;
+const TRAIT_KEYS = ["Background", "Fur", "Eyes", "Mouth", "Head", "Body accessory", "Mouth accessory"];
+
+// Count frequency of each trait value
+const traitFreq: Record<string, Record<string, number>> = {};
+for (const key of TRAIT_KEYS) {
+  traitFreq[key] = {};
+}
+for (const item of raw.data) {
+  for (const key of TRAIT_KEYS) {
+    const val = item.attributes[key] || "None";
+    traitFreq[key][val] = (traitFreq[key][val] || 0) + 1;
+  }
+}
+
+// Calculate rarity score per item: sum of 1/(frequency/total) for each trait
+function rarityScore(attrs: Record<string, string>): number {
+  let score = 0;
+  for (const key of TRAIT_KEYS) {
+    const val = attrs[key] || "None";
+    const freq = traitFreq[key][val] || 1;
+    score += 1 / (freq / TOTAL);
+  }
+  return score;
+}
+
+// Build compact index with rarity scores
+const indexWithScores = raw.data
   .map((item) => ({
     id: parseInt(item.itemId, 10),
     inscriptionNumber: item.inscriptionNumber,
+    score: rarityScore(item.attributes),
     bg: item.attributes["Background"] || "",
     fur: item.attributes["Fur"] || "",
     eyes: item.attributes["Eyes"] || "",
@@ -46,7 +73,18 @@ const index = raw.data
     body: item.attributes["Body accessory"] || "",
     mouthAcc: item.attributes["Mouth accessory"] || "",
   }))
-  .sort((a, b) => a.id - b.id);
+  .sort((a, b) => b.score - a.score); // Sort by score desc to assign ranks
+
+// Assign ranks (1 = rarest)
+const index = indexWithScores.map((item, i) => {
+  const { score, ...rest } = item;
+  return { ...rest, rank: i + 1 };
+});
+
+// Re-sort by ID for default display
+index.sort((a, b) => a.id - b.id);
+
+console.log(`Rarity calculated. #1 rarest: ID ${indexWithScores[0].id} (score ${indexWithScores[0].score.toFixed(1)})`);
 
 // Build trait values with counts
 const traitCategories = Object.entries(ATTR_MAP).map(([name, key]) => {

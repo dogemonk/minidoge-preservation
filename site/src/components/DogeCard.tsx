@@ -17,9 +17,12 @@ export function DogeCard({ doge }: { doge: DogeIndex }) {
           loading="lazy"
         />
       </div>
-      <div className="p-2 text-center">
+      <div className="p-2 flex items-center justify-between px-3">
         <span className="text-sm font-medium text-gold group-hover:text-gold-dark">
           #{doge.id}
+        </span>
+        <span className="text-xs text-white/30">
+          Rank {doge.rank.toLocaleString()}
         </span>
       </div>
     </Link>

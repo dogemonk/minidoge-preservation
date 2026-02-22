@@ -1,6 +1,7 @@
 export interface DogeIndex {
   id: number;
   inscriptionNumber: number;
+  rank: number;
   bg: string;
   fur: string;
   eyes: string;

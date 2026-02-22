@@ -41,6 +41,7 @@ function GalleryInner({
   }, [searchParams]);
 
   const searchId = searchParams.get("search") || "";
+  const sortBy = searchParams.get("sort") || "id";
   const page = parseInt(searchParams.get("page") || "1", 10);
 
   // Build new URL params
@@ -75,6 +76,7 @@ function GalleryInner({
     const clears: Record<string, null> = {};
     for (const key of FILTER_KEYS) clears[key] = null;
     clears["search"] = null;
+    clears["sort"] = null;
     updateParams(clears);
   }, [updateParams]);
 
@@ -105,8 +107,13 @@ function GalleryInner({
       }
     }
 
+    // Sort
+    if (sortBy === "rarity") {
+      result = [...result].sort((a, b) => a.rank - b.rank);
+    }
+
     return result;
-  }, [doges, activeFilters, searchId]);
+  }, [doges, activeFilters, searchId, sortBy]);
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PER_PAGE));
   const safePage = Math.min(Math.max(1, page), totalPages);
@@ -164,6 +171,16 @@ function GalleryInner({
               </span>
             )}
           </p>
+          <select
+            value={sortBy}
+            onChange={(e) =>
+              updateParams({ sort: e.target.value === "id" ? null : e.target.value })
+            }
+            className="bg-surface border border-white/10 rounded px-3 py-1.5 text-sm cursor-pointer focus:outline-none focus:border-gold"
+          >
+            <option value="id">Sort by ID</option>
+            <option value="rarity">Sort by Rarity</option>
+          </select>
         </div>
 
         {pageDoges.length === 0 ? (
