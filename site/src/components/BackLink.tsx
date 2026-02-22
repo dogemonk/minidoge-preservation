@@ -1,15 +1,13 @@
 "use client";
 
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export function BackLink() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const from = searchParams.get("from");
 
   const handleClick = () => {
-    if (from) {
-      router.push(from);
+    if (window.history.length > 1) {
+      router.back();
     } else {
       router.push("/");
     }
