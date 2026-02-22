@@ -4,6 +4,8 @@ Complete preservation of all 10,000 Doginal Mini Doges — the first 10k NFT col
 
 This repo contains every image, all metadata, and a browsable gallery site.
 
+**Browse the collection: https://minidoge-preservation.vercel.app/**
+
 ## What's Inside
 
 ```
