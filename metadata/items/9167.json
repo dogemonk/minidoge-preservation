@@ -1,0 +1,23 @@
+{
+  "listingId": "694fe4090f8c163e11bf7705",
+  "inscriptionId": "9fa7b3c0d144494126ecb5a74275a9a1ac80ac19a4e086bace6368bb32093bf7i0",
+  "inscriptionNumber": 23801,
+  "output": "8328a9bd388a76602f28803b2b486ea76c792a0671ef2ec7c60471b5644c06a9:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DFvqdspTTEGySaSoW4TuMdci1zBK5kdBJ6",
+  "listedAt": "2025-12-27T13:50:01.620Z",
+  "price": 360000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "9167",
+  "attributes": {
+    "Background": "Red",
+    "Fur": "Black n tan",
+    "Body accessory": "Cybersuit",
+    "Mouth": "Neutral",
+    "Eyes": "Doge eyes",
+    "Head": "Miner hat"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "listingId": "66cb7b0cbb4f0166629071aa",
+  "inscriptionId": "0e15409fa3142aa0df759fa7e7a6bb158a8fe9dca09c9bbeb9000c17c815121ei0",
+  "inscriptionNumber": 20247,
+  "output": "b4276e753f10b3b87d9fcfc56df330583f0f4936511e51d93038b75096336c86:39",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DAPB1Ppn18vjjazrY2BtALHoubtTKLNPzD",
+  "listedAt": "2024-08-25T18:42:20.080Z",
+  "price": 900000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "5613",
+  "attributes": {
+    "Background": "Green",
+    "Fur": "Red",
+    "Body accessory": "Micro doge",
+    "Mouth": "Neutral",
+    "Mouth accessory": "Cigar",
+    "Eyes": "Thug glasses"
+  }
+}

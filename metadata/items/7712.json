@@ -1,0 +1,19 @@
+{
+  "inscriptionId": "d472ff76f34b5a612d0e1f361794f91c84afc0669b0eddc4df4a91ef2e5cb77ei0",
+  "inscriptionNumber": 22346,
+  "output": "240e84c0a1f412f9baf3431e84133e5b20fa31b853a0257a8278dfea545359a0:1",
+  "contentType": "image/png",
+  "type": "nft",
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "7712",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Red",
+    "Body accessory": "Red spiked collar",
+    "Mouth": "Neutral",
+    "Mouth accessory": "Rick's drool",
+    "Eyes": "Doge eyes",
+    "Head": "Crown"
+  }
+}

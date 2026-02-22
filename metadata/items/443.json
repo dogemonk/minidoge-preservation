@@ -1,0 +1,22 @@
+{
+  "listingId": "65f85b12e1f94ce2614805cb",
+  "inscriptionId": "9ed3d183e1118ca11495a4bc99add1776ffe5b110a55bcb363c20207fdbd8fe3i0",
+  "inscriptionNumber": 15020,
+  "output": "b973158247b8f9144cf92bffcec7b2ac238a699d5f99f4204e3abac4ff64925f:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "D5aE8CzeRZfVpNKPeY26Nt5ZjzXxcskk6r",
+  "listedAt": "2024-03-18T15:17:38.400Z",
+  "price": 980000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "443",
+  "attributes": {
+    "Background": "Fire",
+    "Fur": "Cream",
+    "Body accessory": "Blue kimono",
+    "Mouth": "Smiling",
+    "Eyes": "Doge eyes"
+  }
+}

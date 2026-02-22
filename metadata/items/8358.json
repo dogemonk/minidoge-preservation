@@ -1,0 +1,23 @@
+{
+  "listingId": "68a5e4946bb84bd7d1230f73",
+  "inscriptionId": "34b7a6e23cc1d0688604173053f371f773d897f1e8c2a3110a8e5bef93556935i0",
+  "inscriptionNumber": 22992,
+  "output": "808f5561e5c360758f41da6692cbd0bd5e0bd050f8e0b37433aca26f92770a38:21",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "D82wgkHirHTZ17f8U7bUG3NTq66z7m7mrp",
+  "listedAt": "2025-08-20T15:07:00.623Z",
+  "price": 375000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "8358",
+  "attributes": {
+    "Background": "Blue",
+    "Fur": "Black n tan",
+    "Body accessory": "Red kimono",
+    "Mouth": "Short",
+    "Eyes": "Happy eyes",
+    "Head": "Flower"
+  }
+}

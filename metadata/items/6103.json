@@ -1,0 +1,17 @@
+{
+  "inscriptionId": "fff52c6da207ccc82c3eaca51677afa49616ab48843fb04da3796383ccb795c4i0",
+  "inscriptionNumber": 20737,
+  "output": "57400b263dfad2df9646adaeab930399424fc86ee2116db7813a8ad2ff885284:0",
+  "contentType": "image/png",
+  "type": "nft",
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "6103",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Sesame",
+    "Body accessory": "Red collar",
+    "Mouth": "Smiling",
+    "Eyes": "Pirate patch"
+  }
+}

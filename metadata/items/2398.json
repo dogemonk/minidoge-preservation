@@ -1,0 +1,19 @@
+{
+  "inscriptionId": "558b4e569c7e4305220fb3f3a93901743c1b7baf418ce5f43ad4f8e9bd628abbi0",
+  "inscriptionNumber": 17032,
+  "output": "8bd1cbdbaa658660c044a6a19dbfc899a0dd6a06ccad2b6da93abec6f3fe0b4d:1",
+  "contentType": "image/png",
+  "type": "nft",
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "2398",
+  "attributes": {
+    "Background": "Brown",
+    "Fur": "Red",
+    "Body accessory": "Heart",
+    "Mouth": "Smiling",
+    "Mouth accessory": "Tongue out",
+    "Eyes": "Happy eyes",
+    "Head": "Earing"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "listingId": "665f5412527f731e12c33ada",
+  "inscriptionId": "7b312b66324b87db85e1b12679c4a4b0eae392585a245ca98bfe9245f1bdf5b2i0",
+  "inscriptionNumber": 21308,
+  "output": "95ab271b01f567234b9e3950372d6396b7f3970dc15fea6e008d15311a706011:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DMHQEZbda2UWoMKARtUg8CrHmBxbx3rphg",
+  "listedAt": "2024-06-04T17:51:14.929Z",
+  "price": 11000000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "6674",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Red",
+    "Body accessory": "Blue collar",
+    "Mouth": "Smiling",
+    "Mouth accessory": "Open mouth",
+    "Eyes": "Angry eyes",
+    "Head": "Pirate hat"
+  }
+}

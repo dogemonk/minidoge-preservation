@@ -1,0 +1,22 @@
+{
+  "listingId": "65e2154eb1baac809109908a",
+  "inscriptionId": "5909a97a593121dda906d3e3eb1e8342825a27aa9f2015b52614f80c2f2a49cai0",
+  "inscriptionNumber": 17835,
+  "output": "c98127b7fc1f1de866c16e1c51e464299022a973858c7b13f17935b8b3c5cc59:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DR7qNBqgK2Tto16YyPRYu2W34TwBJHWTJD",
+  "listedAt": "2024-03-01T17:50:06.659Z",
+  "price": 4080000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "3201",
+  "attributes": {
+    "Background": "Sea",
+    "Fur": "Red",
+    "Body accessory": "Business suit",
+    "Mouth": "Smiling",
+    "Eyes": "Red glasses"
+  }
+}

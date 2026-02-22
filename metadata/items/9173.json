@@ -1,0 +1,23 @@
+{
+  "listingId": "6893fb054a59bffb0200dd96",
+  "inscriptionId": "565179e8d2d7f21a945ad5038224823cca3ea4d67527992a9f7d5fab7372e3e9i0",
+  "inscriptionNumber": 23807,
+  "output": "d1f4081e218234010b79cfd4ba1f7d135a819b01ae497075eb6e3d3fa118c0ed:0",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DTo1PwBC2ikE8f32Lzq3HuVRstBDPmoowW",
+  "listedAt": "2025-08-07T01:01:57.418Z",
+  "price": 250000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "9173",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Red",
+    "Body accessory": "Black spiked collar",
+    "Mouth": "Neutral",
+    "Mouth accessory": "Blunt",
+    "Eyes": "Happy eyes"
+  }
+}

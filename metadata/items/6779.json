@@ -1,0 +1,23 @@
+{
+  "listingId": "65dfa489b1baac809124fce0",
+  "inscriptionId": "ed2826138f784896ab9f483140d1e679bf6c5df55e5e9424d52eec43185bbe03i0",
+  "inscriptionNumber": 21413,
+  "output": "b127428d6de3a263c570ac41499b57a6ad35cb4ec90017d3b477b74b6c63e3a6:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "D6H3WfszRVKik4zdaR7P7MzcGY9qdhVtvu",
+  "listedAt": "2024-02-28T21:24:25.780Z",
+  "price": 2000000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "6779",
+  "attributes": {
+    "Background": "Red",
+    "Fur": "Sesame",
+    "Body accessory": "Heart",
+    "Mouth": "Short",
+    "Eyes": "Angry eyes",
+    "Head": "Crown"
+  }
+}

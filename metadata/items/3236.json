@@ -1,0 +1,24 @@
+{
+  "listingId": "688b7383e3b06c086bc3fac3",
+  "inscriptionId": "2767bb6cb7748b28b32128ce165ddfb7fdc4c665f15e213ee3f1b08fbf111eebi0",
+  "inscriptionNumber": 17870,
+  "output": "38654811b0370bbc78fba7f2d8d6c426ca5d2e603ed9b95021a1b132a9a990e3:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "D83KbuoPTfBaf5H17ZCRK5iQSuugRGQWa9",
+  "listedAt": "2025-07-31T13:45:39.377Z",
+  "price": 83300000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "3236",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Cream",
+    "Body accessory": "Black collar",
+    "Mouth": "Neutral",
+    "Mouth accessory": "Blunt",
+    "Eyes": "Doge eyes",
+    "Head": "Baseball cap blue"
+  }
+}

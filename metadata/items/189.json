@@ -1,0 +1,23 @@
+{
+  "listingId": "669a30ea7af596d45c6a7253",
+  "inscriptionId": "bf807266f7adee19ba63c1fd9594efc44a5e488c7b64d560567a63cab8d6c356i0",
+  "inscriptionNumber": 14766,
+  "output": "4e4cede59279d72b52a4f6df2bda7b6d82eaa9e45da6499da555aa9639765d28:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "D5aE8CzeRZfVpNKPeY26Nt5ZjzXxcskk6r",
+  "listedAt": "2024-07-19T09:24:58.805Z",
+  "price": 1100000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "189",
+  "attributes": {
+    "Background": "Red",
+    "Fur": "Sesame",
+    "Body accessory": "Blue collar",
+    "Mouth": "Neutral",
+    "Eyes": "Pirate patch",
+    "Head": "Baseball cap blue"
+  }
+}

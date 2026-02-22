@@ -1,0 +1,22 @@
+{
+  "listingId": "67150c0b2737c81ffe202a27",
+  "inscriptionId": "dd1f39d3926b068e91548c42ba84ab7a49694eaefb8a8f80ccf1607017f02780i0",
+  "inscriptionNumber": 17042,
+  "output": "ba44733bf9927c32378ad60505df75e16eb3ae48631abe52b86e557ba421ba73:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DJepH3zpD25EbYeR78L8mSP1q8QqqXtM9r",
+  "listedAt": "2024-10-20T13:56:27.331Z",
+  "price": 5400000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "2408",
+  "attributes": {
+    "Background": "Blue",
+    "Fur": "Black n tan",
+    "Body accessory": "Dogecoin",
+    "Mouth": "Smiling",
+    "Eyes": "Doge eyes"
+  }
+}

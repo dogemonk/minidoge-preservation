@@ -1,0 +1,23 @@
+{
+  "listingId": "68dd249b22d18a807efce044",
+  "inscriptionId": "9da899ce94c25bd2cabaf97b01bd576c4f0f80460c1a260fed39395578ef0566i0",
+  "inscriptionNumber": 18856,
+  "output": "16b76c222b4152fa68641b2f31d0af0de2f8e0783822958ac89ec610dfdbf079:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DCGyG34PN2LgmqgnCixhQJA8yw3uy4kfRB",
+  "listedAt": "2025-10-01T12:54:51.720Z",
+  "price": 42000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "4222",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Red",
+    "Body accessory": "White hoodie",
+    "Mouth": "Smiling",
+    "Eyes": "Doge eyes",
+    "Head": "Baseball cap red rev"
+  }
+}

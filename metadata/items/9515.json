@@ -1,0 +1,19 @@
+{
+  "inscriptionId": "37918a52ef210fc3be2bf1ff9e2bb9efcd798235a1159aa9dd859f2af184ef68i0",
+  "inscriptionNumber": 24152,
+  "output": "fcd8b127149bdcaf02a859b17fc690f9917737f86e32e2b8e8897f977cff6232:1",
+  "contentType": "image/png",
+  "type": "nft",
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "9515",
+  "attributes": {
+    "Background": "Blue",
+    "Fur": "Black n tan",
+    "Body accessory": "White hoodie",
+    "Mouth": "Short",
+    "Mouth accessory": "Tongue out",
+    "Eyes": "Pirate patch",
+    "Head": "White strip hat"
+  }
+}

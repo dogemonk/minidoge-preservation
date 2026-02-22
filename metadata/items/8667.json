@@ -1,0 +1,19 @@
+{
+  "inscriptionId": "1048d290e71891a00460a3d3d9aa6b201ea5f1889069c8a9da41d65ff5d30417i0",
+  "inscriptionNumber": 23301,
+  "output": "44d373a3dd4a705e3e1ae11c0ea42bda5e5706202d61000acf5f5628e3e7a8dd:1",
+  "contentType": "image/png",
+  "type": "nft",
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "8667",
+  "attributes": {
+    "Background": "Green",
+    "Fur": "Red",
+    "Body accessory": "Bitcoin",
+    "Mouth": "Smiling",
+    "Mouth accessory": "Open mouth",
+    "Eyes": "Doge eyes",
+    "Head": "Pirate hat"
+  }
+}

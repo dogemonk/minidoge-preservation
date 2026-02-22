@@ -1,0 +1,19 @@
+{
+  "inscriptionId": "48f86d0c313bb41b3f3ae0ec325e9aa4a879de4cb395e594492f731d0ca51febi0",
+  "inscriptionNumber": 21752,
+  "output": "6a23b6a964c3b9da68305339c2176a119f56473e22dfcd6c42f27cda8b919dab:1",
+  "contentType": "image/png",
+  "type": "nft",
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "7118",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Sesame",
+    "Body accessory": "Red collar",
+    "Mouth": "Smiling",
+    "Mouth accessory": "Mole",
+    "Eyes": "Doge eyes",
+    "Head": "Baseball cap blue"
+  }
+}

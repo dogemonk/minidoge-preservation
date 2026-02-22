@@ -1,0 +1,23 @@
+{
+  "listingId": "673317e3126c1275c715b5ae",
+  "inscriptionId": "9555f60df35347daff3377fe5971e5f0948aa459bee6bfe12307f415bc0244c9i0",
+  "inscriptionNumber": 19629,
+  "output": "7d8ddc83336b2ef09126b3fa3fc9349caf30073eff2121e9d01cdebce7b28f4d:1",
+  "status": "listed",
+  "contentType": "image/png",
+  "type": "nft",
+  "sellerAddress": "DR9BVuk1dRxJPCf3hPVqfuoyfTtbS42C8i",
+  "listedAt": "2024-11-12T08:54:59.997Z",
+  "price": 1000000000000,
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "4995",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Red",
+    "Body accessory": "Heart",
+    "Mouth": "Neutral",
+    "Eyes": "Doge eyes",
+    "Head": "Miner hat"
+  }
+}

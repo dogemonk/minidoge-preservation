@@ -1,0 +1,18 @@
+{
+  "inscriptionId": "f078120301fb7c4abaab49bced9eb4c05ff4d820a5ed3809980dd1fa37d87aeai0",
+  "inscriptionNumber": 15409,
+  "output": "e0d49f761b887bbe39cbe5e806b49ce226cead5e2e7404e8772f043cf1ef1546:84",
+  "contentType": "image/png",
+  "type": "nft",
+  "collectionId": "minidoges",
+  "itemName": "Doginal Mini Doges",
+  "itemId": "824",
+  "attributes": {
+    "Background": "White",
+    "Fur": "Red",
+    "Mouth": "Smiling",
+    "Mouth accessory": "Rick's drool",
+    "Eyes": "Pirate patch",
+    "Head": "Baseball cap blue"
+  }
+}
