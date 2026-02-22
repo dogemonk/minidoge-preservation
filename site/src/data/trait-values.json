@@ -1,0 +1,312 @@
+[
+  {
+    "name": "Background",
+    "key": "bg",
+    "values": [
+      {
+        "value": "White",
+        "count": 2867
+      },
+      {
+        "value": "Blue",
+        "count": 1529
+      },
+      {
+        "value": "Green",
+        "count": 1508
+      },
+      {
+        "value": "Brown",
+        "count": 1479
+      },
+      {
+        "value": "Space",
+        "count": 542
+      },
+      {
+        "value": "Fire",
+        "count": 541
+      },
+      {
+        "value": "Sea",
+        "count": 515
+      },
+      {
+        "value": "Red",
+        "count": 511
+      },
+      {
+        "value": "Gold",
+        "count": 508
+      }
+    ]
+  },
+  {
+    "name": "Fur",
+    "key": "fur",
+    "values": [
+      {
+        "value": "Red",
+        "count": 6325
+      },
+      {
+        "value": "Sesame",
+        "count": 1252
+      },
+      {
+        "value": "Cream",
+        "count": 1216
+      },
+      {
+        "value": "Black n tan",
+        "count": 1207
+      }
+    ]
+  },
+  {
+    "name": "Eyes",
+    "key": "eyes",
+    "values": [
+      {
+        "value": "Doge eyes",
+        "count": 4012
+      },
+      {
+        "value": "Happy eyes",
+        "count": 1135
+      },
+      {
+        "value": "Naughty eyes",
+        "count": 740
+      },
+      {
+        "value": "Thug glasses",
+        "count": 731
+      },
+      {
+        "value": "Black glasses",
+        "count": 694
+      },
+      {
+        "value": "Angry eyes",
+        "count": 694
+      },
+      {
+        "value": "Blue glasses",
+        "count": 372
+      },
+      {
+        "value": "3d glasses",
+        "count": 372
+      },
+      {
+        "value": "Stoned eyes",
+        "count": 345
+      },
+      {
+        "value": "Pirate patch",
+        "count": 344
+      },
+      {
+        "value": "Red glasses",
+        "count": 324
+      },
+      {
+        "value": "Laser eyes",
+        "count": 237
+      }
+    ]
+  },
+  {
+    "name": "Mouth",
+    "key": "mouth",
+    "values": [
+      {
+        "value": "Smiling",
+        "count": 5882
+      },
+      {
+        "value": "Neutral",
+        "count": 3155
+      },
+      {
+        "value": "Short",
+        "count": 963
+      }
+    ]
+  },
+  {
+    "name": "Head",
+    "key": "head",
+    "values": [
+      {
+        "value": "Baseball cap blue",
+        "count": 837
+      },
+      {
+        "value": "Baseball cap black",
+        "count": 746
+      },
+      {
+        "value": "Miner hat",
+        "count": 679
+      },
+      {
+        "value": "Baseball cap red",
+        "count": 542
+      },
+      {
+        "value": "Baseball cap blue rev",
+        "count": 541
+      },
+      {
+        "value": "Earing",
+        "count": 541
+      },
+      {
+        "value": "White strip hat",
+        "count": 516
+      },
+      {
+        "value": "Pirate hat",
+        "count": 514
+      },
+      {
+        "value": "Straw hat",
+        "count": 508
+      },
+      {
+        "value": "Hat",
+        "count": 491
+      },
+      {
+        "value": "Baseball cap red rev",
+        "count": 478
+      },
+      {
+        "value": "Flower",
+        "count": 333
+      },
+      {
+        "value": "Crown",
+        "count": 213
+      }
+    ]
+  },
+  {
+    "name": "Body accessory",
+    "key": "body",
+    "values": [
+      {
+        "value": "Blue collar",
+        "count": 882
+      },
+      {
+        "value": "Black spiked collar",
+        "count": 849
+      },
+      {
+        "value": "Black collar",
+        "count": 833
+      },
+      {
+        "value": "Dogecoin",
+        "count": 821
+      },
+      {
+        "value": "Red kimono",
+        "count": 700
+      },
+      {
+        "value": "Blue kimono",
+        "count": 700
+      },
+      {
+        "value": "Brown hoodie",
+        "count": 467
+      },
+      {
+        "value": "Business suit",
+        "count": 436
+      },
+      {
+        "value": "Red collar",
+        "count": 426
+      },
+      {
+        "value": "Cybersuit",
+        "count": 420
+      },
+      {
+        "value": "Red spiked collar",
+        "count": 416
+      },
+      {
+        "value": "White hoodie",
+        "count": 414
+      },
+      {
+        "value": "Skull",
+        "count": 377
+      },
+      {
+        "value": "Necktie",
+        "count": 326
+      },
+      {
+        "value": "Heart",
+        "count": 295
+      },
+      {
+        "value": "Diamond",
+        "count": 175
+      },
+      {
+        "value": "Bitcoin",
+        "count": 158
+      },
+      {
+        "value": "Micro doge",
+        "count": 80
+      }
+    ]
+  },
+  {
+    "name": "Mouth accessory",
+    "key": "mouthAcc",
+    "values": [
+      {
+        "value": "Tongue out",
+        "count": 1623
+      },
+      {
+        "value": "Open mouth",
+        "count": 1585
+      },
+      {
+        "value": "Teeth",
+        "count": 1035
+      },
+      {
+        "value": "Blunt",
+        "count": 560
+      },
+      {
+        "value": "Rick's drool",
+        "count": 546
+      },
+      {
+        "value": "Cigarette",
+        "count": 544
+      },
+      {
+        "value": "Cigar",
+        "count": 508
+      },
+      {
+        "value": "Mole",
+        "count": 205
+      }
+    ]
+  }
+]

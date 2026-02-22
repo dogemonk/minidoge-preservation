@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #f0b90b;
+  --color-gold-dark: #d4a50a;
+  --color-surface: #1a1a2e;
+  --color-surface-hover: #252540;
+  --color-bg: #0d0d12;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
