@@ -1,9 +1,10 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Suspense } from "react";
 import type { DogeIndex, TraitCategory } from "@/lib/types";
+import { trackRoute } from "@/lib/navigationHistory";
 import { DogeCard } from "./DogeCard";
 import { TraitFilter } from "./TraitFilter";
 import { Pagination } from "./Pagination";
@@ -40,9 +41,15 @@ function GalleryInner({
     return filters;
   }, [searchParams]);
 
+  const queryString = searchParams.toString();
+  const galleryRoute = queryString ? `/?${queryString}` : "/";
   const searchId = searchParams.get("search") || "";
   const sortBy = searchParams.get("sort") || "id";
   const page = parseInt(searchParams.get("page") || "1", 10);
+
+  useEffect(() => {
+    trackRoute(galleryRoute);
+  }, [galleryRoute]);
 
   // Build new URL params
   const updateParams = useCallback(

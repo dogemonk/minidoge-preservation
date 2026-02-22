@@ -1,23 +1,44 @@
 "use client";
 
-import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import {
+  getLastGalleryRoute,
+  getPreviousRoute,
+  trackRoute,
+} from "@/lib/navigationHistory";
+
+function toGalleryHref(url: string | null): string | null {
+  if (!url) return null;
+  try {
+    const parsed = new URL(url, window.location.origin);
+    if (parsed.origin !== window.location.origin || parsed.pathname !== "/") {
+      return null;
+    }
+    return `${parsed.pathname}${parsed.search}`;
+  } catch {
+    return null;
+  }
+}
 
 export function BackLink() {
   const router = useRouter();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    trackRoute(pathname);
+  }, [pathname]);
 
   const handleClick = () => {
-    const referrer = document.referrer;
-    const isSameOrigin = referrer.startsWith(window.location.origin);
-    const isGalleryPage =
-      isSameOrigin &&
-      (new URL(referrer).pathname === "/" ||
-        new URL(referrer).pathname === "");
+    const previousGalleryHref = toGalleryHref(getPreviousRoute());
+    const savedGalleryHref = toGalleryHref(getLastGalleryRoute()) || "/";
 
-    if (isGalleryPage) {
+    if (window.history.length > 1 && previousGalleryHref) {
       router.back();
-    } else {
-      router.push("/");
+      return;
     }
+
+    router.push(savedGalleryHref);
   };
 
   return (
