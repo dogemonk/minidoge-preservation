@@ -110,6 +110,8 @@ function GalleryInner({
     // Sort
     if (sortBy === "rarity") {
       result = [...result].sort((a, b) => a.rank - b.rank);
+    } else if (sortBy === "inscription") {
+      result = [...result].sort((a, b) => a.inscriptionNumber - b.inscriptionNumber);
     }
 
     return result;
@@ -179,6 +181,7 @@ function GalleryInner({
             className="bg-surface border border-white/10 rounded px-3 py-1.5 text-sm cursor-pointer focus:outline-none focus:border-gold"
           >
             <option value="id">Sort by ID</option>
+            <option value="inscription">Sort by Inscription #</option>
             <option value="rarity">Sort by Rarity</option>
           </select>
         </div>

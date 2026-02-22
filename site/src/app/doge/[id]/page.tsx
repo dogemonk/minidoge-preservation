@@ -45,6 +45,7 @@ export default async function DogePage({
   const doge = await getDogeData(id);
   const indexEntry = dogesIndex.find((d) => d.id === numId);
   const rank = indexEntry?.rank ?? 0;
+  const score = indexEntry?.score ?? 0;
 
   const traitOrder = [
     "Background",
@@ -92,6 +93,9 @@ export default async function DogePage({
             </span>
             <span className="bg-gold/15 text-gold text-sm font-medium px-2.5 py-0.5 rounded-full">
               Rarity #{rank.toLocaleString()} / 10,000
+            </span>
+            <span className="text-white/30 text-sm">
+              Score: {score}
             </span>
           </div>
 

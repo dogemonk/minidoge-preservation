@@ -75,10 +75,9 @@ const indexWithScores = raw.data
   }))
   .sort((a, b) => b.score - a.score); // Sort by score desc to assign ranks
 
-// Assign ranks (1 = rarest)
+// Assign ranks (1 = rarest), keep score rounded to 1 decimal
 const index = indexWithScores.map((item, i) => {
-  const { score, ...rest } = item;
-  return { ...rest, rank: i + 1 };
+  return { ...item, score: Math.round(item.score * 10) / 10, rank: i + 1 };
 });
 
 // Re-sort by ID for default display
